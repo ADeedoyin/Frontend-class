@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+header {
+    margin: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;}
+
+    header .logo {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    nav > ul li a {
+        color: white;
+        font-size: 16px;
+        margin: 0 1rem;
+        text-transform: uppercase;
+        text-decoration: none;}
+
+    .search{
+        padding: 0.5rem 0.5rem;
+        background: none;
+        border: 0.5px solid white;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: transparent;
+
+    }
+    .search:hover > input{
+        width: 200px;
+        padding: 0 10px;
+    }
+
+    .search:hover > .icon{
+        background: none;
+    }
+    .search .icon:hover{
+        transform: rotate(360deg) scale(0.8);
+    }
+    .search .icon{
+        padding: 10px;
+        color: white;
+        text-align: center;
+        transition: 0.5s;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .search .control{
+        width: 0;
+        border: none;
+        outline: none;
+        padding: 0;
+        background: none;
+        background-color: transparent;
+        fill: none;
+        font-size: 1.1rem;
+        transition: 0.5s ease;
+        line-height: 10px;
+        color: white;
+    }
+
+    main{
+        margin: 0 6rem;
+        min-height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+    }
+    .wrapper {
+        max-width: 800px;
+    
+    }
+    
+    .wrapper .title {
+        font-size: 50px;
+        line-height: 70px;
+        margin-bottom: 2rem;
+    }
+    
+    .title span {
+        display: block;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+
+    .description{
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 2rem;}
+
+    .description span{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .btn-let-go {
+        padding: 1rem 2.5rem;
+        background: none;
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+    }
+    a:hover {
+        padding: 1rem 1.5rem;
+        background: none;
+        border: 1px solid white;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+    }
+    .beauty{
+        display: flex;
+        width: 500px;
+        height: 500px;
+        align-content: flex-end;
+    }
+    footer{
+        margin: 0 6rem;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 600px;
+    }
+    .bottom{
+        max-width: 800px;
+    }
+
+   .bottom .reach{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 2rem;
+   }
+
+    .major i {
+        position: absolute;
+    }
+     
+    .major {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+     
+    .icon {
+        padding: 10px;
+        color: black;
+        min-width: 50px;
+        text-align: center;
+    }
+     
+    .field {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .coment {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin: 0px 0px 10px;
+    }
+
+    .submit{
+        padding: 1rem 1.5rem;
+        background: none;
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .forme{
+        padding: 1rem 2.5rem;
+        background: none;
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        width: 700px;
+        
+    }
